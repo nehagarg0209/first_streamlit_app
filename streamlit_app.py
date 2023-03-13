@@ -59,6 +59,8 @@ my_data_row = my_cur.fetchone()
 streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
+streamlit.stop();
+
 streamlit.header("The fruit load list contains:")
 #Snowflake related funcitons
 def get_fruit_load_list():
